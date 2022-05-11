@@ -1,0 +1,141 @@
+/* CSS DOCUMENT */
+
+
+/* FONTS */
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* RESET (IF NEEDED) */
+
+html,
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* RULES */
+
+
+/* -- HEADER -- */
+
+header
+{
+    background-image: url(./img/pattern.png);
+    background-color: #7FA6FB;
+    background-size: 56%;
+    height: 30vh;
+}
+
+/* Avrei preferito usare un position: relative o Absolute */
+header img
+{
+    padding-top: 150px;
+    padding-left: 15px;
+    width: 320px;
+}
+
+
+/* -- MAIN -- */
+
+main
+{
+    padding: 0 25px;
+}
+
+
+
+
+/* -- ARTICOLO 1 -- */
+
+article h2
+{
+    font-size: 44px;
+    margin-bottom: 0;
+}
+
+article h3
+{
+    font-size: 22px;
+    margin: 10px auto;
+    font-weight: bolder;
+}
+
+article h3 a
+{
+    text-decoration: none;
+    color: palevioletred;
+}
+
+/* Avrei utilizzato display: flex */
+
+#divart1 img
+{
+    width: 48%;
+    height: 550px;
+    margin: 20px 0;
+}
+
+#divart1 img:first-child
+{
+    margin-right: 1%;
+}
+
+#divart1 img:last-child
+{
+    margin-left: 1%;
+}
+
+#Articolo1 p,#Articolo1 li
+{
+    font-size: 22px;
+}
+
+#Articolo1 span
+{
+    background-color: yellow;
+}
+
+
+
+/* -- ARTICOLO 2 -- */
+
+#h3art2
+{
+    color: rgb(84, 84, 84);
+    font-size: 25px;
+    margin-top: 65px;
+    font-weight: bolder;
+}
+
+#Articolo2 p
+{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;  
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#Articolo2 #img1
+{
+    background: url(./img/marck-zuck.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 500px;
+}
+
+#Articolo2 #img2
+{
+    background: url(./img/padel-player.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 500px;
+}
